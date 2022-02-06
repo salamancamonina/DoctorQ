@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=PT+Serif:wght@700&display=swap');
+
+:root {
+    --primary: #C5C5C5;
+    --text: #808080;
+    --background: #F6F6F6;
+    --bluecolor: #68D0D3;
+    --bluecolor2: #D2F1F2;
+    --purplecolor: #776BFF;
+    --purplecolor2: #CAC5F6;
+    --pinkcolor: #FF93A4;
+    --body: #FFFFFF;
+
+}
+
+.login-div {
+    border-radius: 40px;
+    color: var(--body);
+    font-size: 24px;
+    background: #68D0D3;
+    padding: 10px 30px 10px 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    margin-left: 60%;
+}
+
+.login-div:hover {
+    background: #D2F1F2;
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: white;
+    opacity: 100;
+}
+
+.register-div {
+    border-radius: 40px;
+    color: var(--body);
+    font-size: 24px;
+    padding: 7px 25px 7px 25px;
+    border: solid #68D0D3 4px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin-left: 2%;
+}
+
+.register-div:hover {
+    background: #D2F1F2;
+    text-decoration: none;
+}
+
+body {
+    line-height: 1.7;
+
+}
+
+.title {
+    font-family: 'Inter', sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    letter-spacing: 10px;
+    word-spacing: 3.4px;
+    color: var(--purplecolor);
+    text-transform: capitalize;
+    margin-left: 20%;
+}
+
+.best {
+    font-family: 'Inter', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-size: 55px;
+    letter-spacing: 1.6px;
+    word-spacing: 3.4px;
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: capitalize;
+    margin-left: 20%;
+}
+
+.sectionone {
+    background-image: url(../images/background.png);
+    background-position: center;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+
+.btn {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+.sectiontwo {
+    background-color: var(--bluecolor2);
+}
+
+.illustrationtwo {
+    margin-top: 3%;
+    width: 480px;
+    height: 300px;
+    padding-bottom: 20px;
+}
+
+.container {
+    position: relative;
+}
+
+.book {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    margin-left: 255%;
+    margin-top: 200%;
+}
+
+.icon-purple {
+    margin-left: 280%;
+    margin-top: 190%;
+}
+
+.wait {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    margin-left: 280%;
+    margin-top: 200%;
+}
+
+.icon-arrow {
+    margin-left: 320%;
+    margin-top: 190%;
+}
+
+.consult {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    margin-left: 300%;
+    margin-top: 200%;
+}
+
+.display-3 {
+    font-family: 'Inter', sans-serif;
+    font-family: 'PT Serif', serif;
+    letter-spacing: 1.6px;
+    word-spacing: 3.4px;
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 10%;
+
+}
+
+.doctorq {
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    letter-spacing: 10px;
+    word-spacing: 3.4px;
+    color: var(--purplecolor);
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.sectionthree {
+    background-image: url(../images/background1.png);
+    background-position: 400px;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.bookdoctor {
+    font-family: 'Inter', sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    margin-left: 20%;
+    margin-top: 32%;
+}
+
+.illustrationthree {
+    margin-left: 5%;
+    margin-top: 14%;
+    height: 400px;
+    width: 400px;
+}
+
+.illustrationfour {
+    margin-left: 20%;
+    height: 370px;
+    width: 410px;
+}
+
+.appointment {
+    font-family: 'Inter', sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    margin-right: 20%;
+    margin-top: 15%;
+    text-align: right;
+}
+
+.sectionfour {
+    background-image: url(../images/background2.png);
+    background-repeat: no-repeat;
+    background-position: 1px;
+    padding-top: 170px;
+    padding-bottom: 170px;
+}
+
+.prescription {
+    font-family: 'Inter', sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    margin-left: 20%;
+    margin-top: 38%;
+}
+
+.illustrationfive {
+    margin-left: 5%;
+    margin-top: 14%;
+    margin-bottom: 30%;
+    height: 450px;
+    width: 330px;
+}
+
+.sectionfive {
+    background-image: url(../images/background1.png);
+    background-position: 300px;
+    background-repeat: no-repeat;
+    padding-top: 70px;
+}
+
+.general {
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.sectionsix {
+    background-color: var(--bluecolor2);
+    padding-top: 80px;
+    padding-bottom: 60px;
+    margin-top: 100px;
+}
+
+.facebook {
+    margin-left: 36%;
+    margin-right: 3%;
+    margin-top: 40%;
+}
+
+.instagram {
+    margin-top: 40%;
+}
+
+.contact {
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}

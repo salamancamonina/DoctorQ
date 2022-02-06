@@ -1,0 +1,103 @@
+:root {
+    --primary: #C5C5C5;
+    --text: #808080;
+    --background: #F6F6F6;
+    --bluecolor: #68D0D3;
+    --bluecolor2: #D2F1F2;
+    --purplecolor: #776BFF;
+    --purplecolor2: #CAC5F6;
+    --pinkcolor: #FF93A4;
+    --body: #FFFFFF;
+
+}
+
+.vertical-menu {
+    width: 260px;
+    height: max-content;
+    padding-top: 20%;
+}
+
+.vertical-menu a {
+    background-color: var(--bluecolor2);
+    color: var(--text);
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1.1px;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+}
+
+.vertical-menu a.active {
+    background-color: #BBD0F5;
+    color: var(--text);
+}
+
+.wrapper {
+    display: flex;
+    position: relative;
+}
+
+.wrapper .sidebar {
+    position: fixed;
+    height: 100%;
+    background-color: var(--bluecolor2);
+}
+
+.labelone {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #808080
+}
+
+.labeltwo {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+}
+
+.btn-account {
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    padding: 7px 30px 7px 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    background-color: var(--bluecolor);
+    border: solid var(--bluecolor)1px;
+    margin-top: 15px;
+    letter-spacing: 1.2px;
+}
+
+.btn-cancel {
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    padding: 7px 30px 7px 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    background-color: var(--text);
+    border: solid var(--text)1px;
+    margin-top: 15px;
+    margin-right: 10px;
+    letter-spacing: 1.2px;
+}
+
+.btn-addpatient {
+    border-radius: 10px;
+    color: white;
+    font-size: 10px;
+    padding: 11px 30px 11px 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    background-color: var(--bluecolor);
+    border: solid var(--bluecolor)1px;
+    margin-top: 15px;
+    letter-spacing: 1.2px;
+}

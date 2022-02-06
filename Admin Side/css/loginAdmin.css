@@ -1,0 +1,57 @@
+:root {
+    --primary: #C5C5C5;
+    --text: #808080;
+    --background: #F6F6F6;
+    --bluecolor: #68D0D3;
+    --bluecolor2: #D2F1F2;
+    --purplecolor: #776BFF;
+    --purplecolor2: #CAC5F6;
+    --pinkcolor: #FF93A4;
+    --body: #FFFFFF;
+
+}
+
+.logo {
+    margin-top: 20%;
+}
+
+.EmailInput {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: var(--text);
+    margin-left: 40%;
+    margin-top: 20px;
+}
+
+.PasswordInput {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: var(--text);
+    margin-left: 40%;
+
+}
+
+.forgotPasswordtext {
+    font-family: 'Inter', sans-serif;
+    margin-top: 20px;
+    color: var(--bluecolor);
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    margin-left: 40%;
+
+}
+
+.btn-login {
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    padding: 7px 110px 7px 110px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    background-color: var(--bluecolor);
+    border: solid var(--bluecolor)1px;
+    margin-left: 38%;
+    letter-spacing: 1.2px;
+}

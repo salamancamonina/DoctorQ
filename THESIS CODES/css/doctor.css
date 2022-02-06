@@ -1,0 +1,165 @@
+:root {
+    --primary: #C5C5C5;
+    --text: #808080;
+    --background: #F6F6F6;
+    --bluecolor: #68D0D3;
+    --bluecolor2: #D2F1F2;
+    --purplecolor: #776BFF;
+    --purplecolor2: #CAC5F6;
+    --pinkcolor: #FF93A4;
+    --body: #FFFFFF;
+
+}
+
+.navbar {
+    background-color: var(--purplecolor2);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+}
+
+.items {
+    margin-left: 10%;
+}
+
+.search {
+    border-radius: 10px;
+    color: var(--purplecolor);
+    font-size: 14px;
+    padding: 5px 7px 5px 7px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    border: solid #68D0D3 15px;
+    border: solid var(--purplecolor)1px;
+    letter-spacing: 1.2px;
+    background-color: var(--purplecolor2);
+}
+
+.illustrationseven {
+    width: 500px;
+    height: 500px;
+    margin-left: 7%;
+    margin-top: 30%;
+}
+
+.need {
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    word-spacing: 3.4px;
+    color: var(--purplecolor);
+    text-transform: capitalize;
+    margin-top: 70%;
+}
+
+.bookappointment {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    word-spacing: 4.3px;
+    color: var(--text);
+    margin-top: 20px;
+}
+
+.patientsectionone {
+    margin-left: 30%;
+}
+
+.body {
+    background-color: #F6F6F6;
+}
+
+.noappointments {
+    color: var(--purplecolor);
+    font-family: 'Inter', sans-serif;
+    font-size: 70px;
+}
+
+.patientsectionthree {
+    background-color: var(--purplecolor2);
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.patientsectiontwo {
+    padding-bottom: 16%;
+}
+
+.ready {
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    word-spacing: 3.4px;
+    color: var(--purplecolor);
+    text-transform: capitalize;
+    margin-left: 30px;
+    margin-top: 25%;
+}
+
+.goto {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    word-spacing: 4.3px;
+    color: var(--text);
+    margin-left: 30px;
+}
+
+.facebook {
+    margin-left: 68%;
+    margin-top: 30%;
+}
+
+.instagram {
+    margin-left: 10px;
+    margin-top: 30%;
+}
+
+
+.us {
+    margin-top: 17%;
+}
+
+.doctorphysical {
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    color: var(--purplecolor);
+    letter-spacing: 3px;
+    margin-top: 50%;
+    margin-left: 20%;
+}
+
+.illustrationnine {
+    width: 500px;
+    height: 500px;
+    margin-top: 15%;
+}
+
+.illustrationeight {
+    width: 470px;
+    height: 500px;
+    margin-top: 15%;
+}
+
+.illustrationten {
+    width: 470px;
+    height: 450px;
+    margin-top: 15%;
+}
+
+.btn-login {
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+    padding: 12px 80px 12px 80px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    background-color: var(--purplecolor);
+    border: solid var(--purplecolor)1px;
+    letter-spacing: 1.2px;
+    margin-top: 10%;
+}

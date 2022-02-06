@@ -1,0 +1,107 @@
+:root {
+    --primary: #C5C5C5;
+    --text: #808080;
+    --background: #F6F6F6;
+    --bluecolor: #68D0D3;
+    --bluecolor2: #D2F1F2;
+    --purplecolor: #776BFF;
+    --purplecolor2: #CAC5F6;
+    --pinkcolor: #FF93A4;
+    --body: #FFFFFF;
+
+}
+
+.illustrationsix {
+    margin-top: 30%;
+    width: 500px;
+    height: 500px;
+}
+
+.EmailInput {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: var(--text);
+}
+
+.PasswordInput {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: var(--text);
+}
+
+.btn-login {
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    padding: 7px 190px 7px 190px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    background-color: var(--bluecolor);
+    border: solid var(--bluecolor)1px;
+    margin-top: 15px;
+    letter-spacing: 1.2px;
+}
+
+.forgotPasswordtext {
+    font-family: 'Inter', sans-serif;
+    margin-top: 20px;
+    color: var(--bluecolor);
+    font-weight: 600;
+    letter-spacing: 1.2px;
+}
+
+.form {
+    margin-top: 60%;
+}
+
+.loginpage {
+    background-image: url(../images/background3.png);
+    background-repeat: no-repeat;
+}
+
+.login-div {
+    border-radius: 40px;
+    color: var(--body);
+    font-size: 24px;
+    background: #68D0D3;
+    padding: 10px 30px 10px 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    margin-left: 60%;
+}
+
+.login-div:hover {
+    background: #D2F1F2;
+    text-decoration: none;
+}
+
+.signupas {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 23px;
+    color: var(--text);
+    margin-top: 60%;
+}
+
+.btn-option {
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    padding: 20px 190px 20px 190px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1.7px;
+    background-color: var(--bluecolor);
+    border: solid var(--bluecolor)1px;
+}
+
+.registerpage {
+    background-image: url(../images/background3.png);
+    background-repeat: no-repeat;
+}
+
+.privacy {
+    margin-top: 40%;
+}
